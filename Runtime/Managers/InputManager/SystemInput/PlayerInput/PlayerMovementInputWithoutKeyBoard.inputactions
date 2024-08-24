@@ -1,0 +1,34 @@
+{
+    "name": "PlayerInputWithoutKeyBoard",
+    "maps": [
+        {
+            "name": "MainAction",
+            "id": "95d654c8-f5d7-4275-8c74-bcb741a4ae56",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "4623e7e5-4fb5-4960-8531-b326b93d450a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b0d514c9-e50f-4cc6-9d74-7560632c4c8a",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
